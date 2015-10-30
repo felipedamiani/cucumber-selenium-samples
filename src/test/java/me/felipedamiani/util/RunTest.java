@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     dryRun = false,
     strict = true,
-    features = "src/test/java/steps/features",
+    features = "src/test/java/me/felipedamiani/steps/features",
     glue = "steps",
     tags = {"@runIt"}
 )
